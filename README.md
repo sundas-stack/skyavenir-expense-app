@@ -1,28 +1,58 @@
-Sky Avenir Expense App
+<div align="center">
 
-A mobile app for capturing and managing expense receipts. Employees photograph a receipt, sign it electronically and track their own receipts from a personal dashboard.
+# Sky Avenir Expense
 
-About this repository: this is a showcase of my front-end work (screenshots and documentation). The source code is proprietary to the company I built it for and is not included. All data shown is sample data.
+**Simple. Secure. Efficient.**
 
-My role
+A mobile app to capture receipts, categorize expenses and submit them in seconds.
 
-Front-end developer on the mobile app, working alongside back-end developers who built the services that store receipts centrally.
 
-Features
-Camera-based receipt capture: take a photo of a receipt directly in the app.
-User login: each person signs in to their own account.
-Electronic signing: sign receipts digitally inside the app.
-Individual dashboards: every user sees and manages only their own receipts.
-Centralized records: the app connects to back-end services that keep all receipts in one place.
-Screenshots
-<!-- SCREENSHOTS: table is added once the app screenshots are ready -->
-Tech stack
-[confirm: e.g. React Native, Expo, TypeScript]
-Integration with back-end APIs for receipt records
-Related work
 
-I also contributed to an AI receipt-processing automation (Python, Power Automate Desktop, OCR and an LLM-based approach) that reads receipt emails, extracts the details from attachments and files each receipt into the right individual folder.
+</div>
 
-Author
+---
 
-Sundas Maria Hayat · LinkedIn · sundasmaria09@gmail.com
+## Features
+
+- **One-tap receipt capture**: take a photo or upload from your gallery
+- **Receipt review**: rotate, crop, replace or retake before continuing
+- **Expense details**: choose a category, business purpose and add optional comments
+- **Status dashboard**: see Submitted, Processing and Needs Review counts at a glance
+- **Expense history**: all your submissions in one place
+- **Confirmation screen**: clear feedback after every submission
+
+## Screenshots
+
+| Home | Review Receipt | Expense Details | Comments | Submitted |
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="screenshots/01-home.png" width="170"> | <img src="screenshots/02-review.png" width="170"> | <img src="screenshots/03-details.png" width="170"> | <img src="screenshots/04-details.png" width="170"> | <img src="screenshots/05-success.png" width="170"> |
+
+## Tech Stack
+
+- Framework: React Native (Expo) / Flutter
+- Language: TypeScript / Dart
+- Storage: Local storage (testing build)
+
+## Getting Started
+
+```bash
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+npm install
+npm start
+```
+
+## Download
+
+Get the latest APK from the [Releases](../../releases) page and install it on your Android device. If prompted, allow "Install unknown apps".
+
+## Roadmap
+
+- [ ] Backend upload and sync
+- [ ] OCR to auto-fill amount and date
+- [ ] Expense history filters
+- [ ] iOS build
+
+## Author
+
+**Sundas**: [GitHub](https://github.com/<your-username>) · [LinkedIn](https://linkedin.com/in/<your-profile>)
