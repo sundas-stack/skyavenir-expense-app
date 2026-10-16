@@ -6,7 +6,7 @@
 
 A mobile app to capture receipts, categorize expenses and submit them in seconds.
 
-
+<img src="screenshots/showcase.png" alt="Sky Avenir Expense screenshots" width="100%">
 
 </div>
 
@@ -29,22 +29,24 @@ A mobile app to capture receipts, categorize expenses and submit them in seconds
 
 ## Tech Stack
 
-- Framework: React Native (Expo) / Flutter
-- Language: TypeScript / Dart
-- Storage: Local storage (testing build)
+- React Native (Expo)
+- TypeScript / JavaScript
+- Local storage (testing build)
 
 ## Getting Started
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/sundas-stack/skyavenir-expense-app.git
+cd skyavenir-expense-app
 npm install
-npm start
+npx expo start
 ```
+
+Scan the QR code with the Expo Go app, or press `a` to open it on an Android emulator.
 
 ## Download
 
-Get the latest APK from the [Releases](../../releases) page and install it on your Android device. If prompted, allow "Install unknown apps".
+Get the latest APK from the [Releases](https://github.com/sundas-stack/skyavenir-expense-app/releases) page and install it on your Android device. If prompted, allow "Install unknown apps".
 
 ## Roadmap
 
@@ -55,4 +57,4 @@ Get the latest APK from the [Releases](../../releases) page and install it on yo
 
 ## Author
 
-**Sundas**: [GitHub](https://github.com/<your-username>) · [LinkedIn](https://linkedin.com/in/<your-profile>)
+**Sundas**: [GitHub](https://github.com/sundas-stack)
